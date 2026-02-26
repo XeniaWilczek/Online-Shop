@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -5,6 +14,86 @@
   align-items: center;
   gap: 1rem;
   height: 100vh;
-  width: 100vw;
-  background-color: aqua;
+  width: 900px;
+  margin: 0 auto;
+  background-color: rgb(248, 241, 174);
+
+  &__heading {
+    border-bottom: 3px solid orange;
+    margin-bottom: 1rem;
+  }
+
+  &__product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+  }
+  &__button {
+    width: 150px;
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 10px 0;
+    color: white;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+  }
+  &__button:hover {
+    background-color: rgb(255, 185, 46);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: white;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  &__image {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  .product-text {
+    background-color: lightgray;
+
+    &__heading {
+      font-size: 1rem;
+    }
+
+    &__price {
+      align-self: flex-start;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    &__price span {
+      color: red;
+      text-decoration: line-through;
+    }
+  }
 }
