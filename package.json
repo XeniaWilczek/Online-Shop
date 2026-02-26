@@ -1,0 +1,16 @@
+{
+  "name": "bem-projekt",
+  "version": "1.0.0",
+  "description": "Online-Shop",
+  "license": "ISC",
+  "author": "Xenia Wilczek",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hallo",
+    "compile-sass": "sass --watch styles.scss output.css"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
