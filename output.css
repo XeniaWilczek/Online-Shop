@@ -1,9 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: sans-serif;
 }
 
@@ -16,7 +13,7 @@ body {
   height: 100vh;
   width: 900px;
   margin: 0 auto;
-  background-color: rgb(248, 241, 174);
+  background-color: rgb(255, 228, 178.5);
 }
 .main-container__heading {
   border-bottom: 3px solid orange;
@@ -38,7 +35,7 @@ body {
   transition: transform 0.3s ease;
 }
 .main-container__button:hover {
-  background-color: rgb(255, 185, 46);
+  background-color: orange;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -87,6 +84,7 @@ body {
 .product .product-text__price span {
   color: red;
   text-decoration: line-through;
+  font-size: 0.6rem;
 }
 
 /*# sourceMappingURL=output.css.map */

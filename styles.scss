@@ -1,9 +1,9 @@
+@use "sass:color";
+$primary-color: orange;
+
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: sans-serif;
 }
 
@@ -16,10 +16,10 @@ body {
   height: 100vh;
   width: 900px;
   margin: 0 auto;
-  background-color: rgb(248, 241, 174);
+  background-color: color.scale($primary-color, $lightness: 70%);
 
   &__heading {
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid $primary-color;
     margin-bottom: 1rem;
   }
 
@@ -31,15 +31,15 @@ body {
   }
   &__button {
     width: 150px;
-    background-color: orange;
-    border: 1px solid orange;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
     padding: 10px 0;
     color: white;
     font-weight: 500;
     transition: transform 0.3s ease;
   }
   &__button:hover {
-    background-color: rgb(255, 185, 46);
+    background-color: $primary-color;
     cursor: pointer;
     transform: scale(1.1);
   }
@@ -94,6 +94,7 @@ body {
     &__price span {
       color: red;
       text-decoration: line-through;
+      font-size: 0.6rem;
     }
   }
 }
