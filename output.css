@@ -60,28 +60,29 @@
   width: 100%;
   object-fit: cover;
 }
-.product__text {
+.product__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem;
-  font-size: 0.5rem;
 }
-.product .product-text {
-  background-color: lightgray;
-}
-.product .product-text__heading {
+.product__heading {
   font-size: 1rem;
 }
-.product .product-text__price {
+.product__description {
+  background-color: lightgrey;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
+.product__price {
   align-self: flex-start;
   font-size: 0.75rem;
   font-weight: 600;
   margin-top: 1rem;
 }
-.product .product-text__price span {
+.product__price span {
   color: red;
   text-decoration: line-through;
   font-size: 0.6rem;

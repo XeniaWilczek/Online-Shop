@@ -67,34 +67,35 @@ $primary-color: orange;
     object-fit: cover;
   }
 
-  &__text {
+  &__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem;
-    font-size: 0.5rem;
   }
 
-  .product-text {
-    background-color: lightgray;
+  &__heading {
+    font-size: 1rem;
+  }
 
-    &__heading {
-      font-size: 1rem;
-    }
+  &__description {
+    background-color: lightgrey;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
 
-    &__price {
-      align-self: flex-start;
-      font-size: 0.75rem;
-      font-weight: 600;
-      margin-top: 1rem;
-    }
+  &__price {
+    align-self: flex-start;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
 
-    &__price span {
-      color: red;
-      text-decoration: line-through;
-      font-size: 0.6rem;
-    }
+  &__price span {
+    color: red;
+    text-decoration: line-through;
+    font-size: 0.6rem;
   }
 }
