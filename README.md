@@ -4,7 +4,7 @@
 Eine visuelle Umsetzung einer Produktübersicht für einen fiktiven Fitness-Online-Shop. Das primäre Ziel dieses Projekts ist die Demonstration einer sauberen CSS-Architektur durch die strikte Einhaltung der BEM-Methodik (Block, Element, Modifier). Das Projekt nutzt den Build-Server Vite zur Kompilierung des SCSS-Quellcodes in reguläres CSS.
 
 ## Voraussetzungen
-Da dieses Projekt mit dem Build-Tool Vite und SCSS umgesetzt wurde, wird für die lokale Entwicklung eine Laufzeitumgebung benötigt:
+Für die lokale Entwicklung wird eine Laufzeitumgebung benötigt:
 - Node.js (Version 18 oder höher empfohlen)
 - npm (wird automatisch mit Node.js installiert)
 - Ein moderner Webbrowser zur Darstellung des lokalen Entwicklungsservers
