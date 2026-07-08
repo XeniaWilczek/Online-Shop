@@ -49,3 +49,6 @@ Vite kompiliert den SCSS-Code in optimiertes, minifiziertes CSS und legt die fin
 
 ## Deployment
 Das Projekt kann nach der Kompilierung auf Plattformen wie GitHub Pages, Vercel oder Netlify gehostet werden. Für das Deployment von Vite-Projekten auf GitHub Pages muss der Build-Befehl automatisiert über eine GitHub Action ausgeführt werden, welche das Verzeichnis `dist` als Quelle für die Veröffentlichung nutzt.
+
+## Lizenz
+Dieses Projekt wurde vollständig von mir selbst konzipiert, modelliert und implementiert. Alle Rechte an Code, Design und den Simulations-Logiken vorbehalten (All Rights Reserved).
