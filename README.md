@@ -1,7 +1,6 @@
 # **Online-Shop**
 ![Vorschau des Online-Shops](./images/previewOnline-Shop.png)
-
-Eine visuelle Umsetzung einer Produktübersicht für einen fiktiven Fitness-Online-Shop. Das primäre Ziel dieses Projekts ist die Demonstration einer sauberen CSS-Architektur durch die strikte Einhaltung der BEM-Methodik (Block, Element, Modifier). Das Projekt nutzt den Build-Server Vite zur Kompilierung des SCSS-Quellcodes in reguläres CSS.
+Ausschließlich visuelle Umsetzung einer Produktübersicht für einen fiktiven Fitness-Online-Shop. Das Ziel dieses Projekts ist die Demonstration einer sauberen CSS-Architektur durch Anwendung der BEM-Methodik (Block, Element, Modifier). Das Projekt nutzt den Build-Server Vite zur Kompilierung des SCSS-Quellcodes in reguläres CSS.
 
 ## Voraussetzungen
 Für die lokale Entwicklung wird eine Laufzeitumgebung benötigt:
@@ -50,6 +49,3 @@ Vite kompiliert den SCSS-Code in optimiertes, minifiziertes CSS und legt die fin
 
 ## Deployment
 Das Projekt kann nach der Kompilierung auf Plattformen wie GitHub Pages, Vercel oder Netlify gehostet werden. Für das Deployment von Vite-Projekten auf GitHub Pages muss der Build-Befehl automatisiert über eine GitHub Action ausgeführt werden, welche das Verzeichnis `dist` als Quelle für die Veröffentlichung nutzt.
-
-## Mitwirken
-Dieses Projekt dient ausschließlich zu Übungszwecken und zur Portfolio-Präsentation. Aus diesem Grund werden derzeit keine externen Code-Beiträge, Fehlerberichte oder Pull Requests entgegengenommen.
